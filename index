@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="jogo">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Aula 28 Agosto</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilos.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container" ng-controller="velha">
+			<div class="row">
+				<div class="casa col-xs-4" ng-click="jogar(0)"><span class="glyphicon {{tabuleiro[0]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(1)"><span class="glyphicon {{tabuleiro[1]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(2)"><span class="glyphicon {{tabuleiro[2]}}"> </span></div>
+				
+				<div class="casa col-xs-4" ng-click="jogar(3)"><span class="glyphicon {{tabuleiro[3]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(4)"><span class="glyphicon {{tabuleiro[4]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(5)"><span class="glyphicon {{tabuleiro[5]}}"> </span></div>
+				
+				<div class="casa col-xs-4" ng-click="jogar(6)"><span class="glyphicon {{tabuleiro[6]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(7)"><span class="glyphicon {{tabuleiro[7]}}"> </span></div>
+				<div class="casa col-xs-4" ng-click="jogar(8)"><span class="glyphicon {{tabuleiro[8]}}"> </span></div>
+				<button ng-click="limpar()"> Limpar </button>
+			</div>
+		</div>
+	</div>
+	<!-->Com problema, terminar em casa <!-->
+	<script src="js/controller.js" charset="utf-8"></script>
+	</body>
+</html>
