@@ -1,0 +1,16 @@
+.casa{
+	border: 1px solid black;
+	height: 150px;
+	text-align: center;
+}
+.casa span{
+  font-size: 10em;
+  padding-top: 30px;
+}
+.glyphicon-fire{
+  color: red;
+}
+
+.glyphicon-tint{
+  color: blue;
+}
