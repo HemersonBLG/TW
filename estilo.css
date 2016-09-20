@@ -1,16 +1,43 @@
-.casa{
-	border: 1px solid black;
-	height: 150px;
-	text-align: center;
-}
-.casa span{
-  font-size: 10em;
-  padding-top: 30px;
-}
-.glyphicon-fire{
-  color: red;
+.dado1{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
 }
 
-.glyphicon-tint{
-  color: blue;
+.dado2{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
+	background-position-x: -220px;
+}
+
+.dado3{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
+	background-position-x: -450px;
+}
+
+
+.dado4{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
+	background-position-y: -220px;
+}
+
+.dado5{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
+	background-position-x: -220px;
+	background-position-y: -220px;
+}
+
+.dado6{
+	height: 220px;
+	background-image: url(dice.png);
+	width: 220px;
+	background-position-x: -450px;
+	background-position-y: -220px;
 }
