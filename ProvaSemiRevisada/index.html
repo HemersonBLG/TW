@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/estilos.css" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Prova Tecnicas Web</title>
+</head>
+
+<body>
+<!-- Hemerson Boaventura de Lima Gomes -->
+    <div class="container" ng-controller='Incrementos'>
+        <div class="row">
+		<div class="col-sm-3">
+			Ganhador das Eleições: <input ng-model="ganhador" type="text" disabled="true">
+            <button ng-click="res()">Encerrar Votação</button>
+			<br>
+			<br>
+			Total de Votos: 
+			<input ng-model="qtdGeral" type="number" disabled="true">
+		</div>
+		<div class="fotos col-sm-3">
+			<img ng-click="incremento1()" id="alexandre" src="prefeitos/alexandre.jpg" alt="Alexandre"></img>
+            <input ng-model="qtd1" disabled="true">
+			<img ng-click="incremento2()" id="gilberto" src="prefeitos/gilberto.jpg" alt="Gilberto"></img>
+			<input ng-model="qtd2" disabled="true">
+			<img ng-click="incremento3()" id="gilmar" src="prefeitos/gilmar.jpg" alt="Gilmar">
+			<input ng-model="qtd3" disabled="true">
+			<img ng-click="incremento4()" id="maria" src="prefeitos/maria.jpg" alt="Maria">
+			<input ng-model="qtd4" disabled="true">
+			<img ng-click="incremento5()" id="odelmo" src="prefeitos/odelmo.jpg" alt="Odelmo">
+			<input ng-model="qtd5" disabled="true">		
+		</div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+</body>
+
+</html>
