@@ -1,5 +1,15 @@
-.portafechada{
+.portas1{
 	height: 250px;
-	background-image: url()
+	background-image: url(porta.jpg);
+	width: 350px;
+}
+.macaco{
+	height: 250px;
+	background-image: url(macaco.jpg);
+	width: 350px;
+}
+.tesouro{
+	height: 250px;
+	background-image: url(tesouro.jpg);
 	width: 350px;
 }
