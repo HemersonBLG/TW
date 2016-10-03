@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/estilos.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trabalho 2</title>
+</head>
+
+<body>
+	<div class="container" ng-controller='jogo'>
+			<div class="row">
+				<button ng-click="jogar()">Jogar</button>
+                <input ng-model="jogo" type="text" disabled="true">
+                <button ng-click="reseta()">Resetar Jogo</button>
+            </div>
+            <div class="row">
+                		<div class="col-lg-3 porta{{porta[1]}}" ng-click="porta(1)"></div>
+
+						<div class="col-lg-3 porta{{porta[2]}}" ng-click="porta(2)"></div>
+
+						<div class="col-lg-3 porta{{porta[3]}}" ng-click="porta(3)"></div>
+		</div>
+	</div>
+	<script src="js/angular.min.js"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+</body>
+
+</html>
