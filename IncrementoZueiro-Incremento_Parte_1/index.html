@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Aff</title>
+</head>
+
+<body>
+    <div class="container" ng-controller='Incrementos'>
+    <button ng-click="limpar()">Limpar</button>
+        <div class="row">
+			<div class="col-sm-3">
+				<button ng-click="incrementoA()">A</button>
+            </div>
+			
+			<div class="col-sm-3">
+				<button ng-click="incrementoB()">B</button>
+			</div>
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="simbolo in simbolos track by $index">
+                <div class="simb">{{simbolo}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="vencedor in vencedores track by $index">
+                <div class="venc">{{vencedor}}
+    </div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+</body>
+
+</html>
